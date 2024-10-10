@@ -47,6 +47,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Preview
 
-![Desktop Screenshot 1](./preview/Desktop-1.png)
-![Desktop Screenshot 2](./preview/Desktop-2.png)
-![Mobile Screenshot 1](./preview/Mobile-1.png)
+![image](https://github.com/user-attachments/assets/2058ce4b-fd5f-48c9-8616-6a905faa2bc2)
+![image](https://github.com/user-attachments/assets/e8586c49-bab5-4174-9fa4-c22819819764)
+![image](https://github.com/user-attachments/assets/16214040-0136-4495-ad4c-ada69fdd9c5a)

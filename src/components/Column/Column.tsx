@@ -1,8 +1,6 @@
 import { useMemo } from "react";
 import Card from "../Card";
 import "./column.css";
-import { GrAdd } from "react-icons/gr";
-import { LuMoreHorizontal } from "react-icons/lu";
 import { Ticket, User } from "../../interfaces";
 import { priorityIcon, statusIcon } from "../../utils/icon";
 import UserIcon from "../UserIProfile";
@@ -47,8 +45,8 @@ function Column({
           </div>
         </div>
         <div className="column-header-right-container">
-          <GrAdd color="#797d84" size={12} />
-          <LuMoreHorizontal color="#797d84" size={14} />
+          <img src="icons/add.svg" alt="add" />
+          <img src="icons/3dot.svg" alt="add" />
         </div>
       </div>
       <div className="cards-container">

@@ -1,6 +1,5 @@
 import "./index.css";
 import UserIcon from "../UserIProfile";
-import { LuMoreHorizontal } from "react-icons/lu";
 import { Ticket, User } from "../../interfaces";
 import { statusIcon } from "../../utils/icon";
 
@@ -29,7 +28,7 @@ function Card({
       </div>
       <div className="bottom-container">
         <div className="more-icon-container">
-          <LuMoreHorizontal color="#797d84" />
+          <img src="icons/3dot.svg" alt="add" />
         </div>
         {ticket.tag.map((t: string) => (
           <div key={t} className="tag-container">
