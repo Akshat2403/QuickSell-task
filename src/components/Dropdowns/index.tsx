@@ -53,7 +53,7 @@ function DisplayDropdown({
       <div className="dropdown-label-container" onClick={openDropdown}>
         <img src="icons/3dot.svg" alt="add" />
         <div className="dropdown-label">Display</div>
-        <img src="icons/display.svg" alt="add" />
+        <img src="icons/Display.svg" alt="add" />
       </div>
       <div className={`dropdown-content-container ${visible && "visible"}`}>
         <div className="dropdown-content-row">
