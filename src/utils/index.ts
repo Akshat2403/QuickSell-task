@@ -12,7 +12,7 @@ export const categorizeTicketsByStatus = (
       accumulator[ticket.status].push(ticket);
       return accumulator;
     },
-    { Backlog: [], Todo: [], "In Progress": [], Done: [], Cancelled: [] }
+    { Backlog: [], Todo: [], "In progress": [], Done: [], Cancelled: [] }
   );
 };
 

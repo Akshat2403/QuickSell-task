@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import Header from "./components/Header";
 import Grid from "./components/Grid";
-import { GET_TICKETS_URL } from "./apiUrl";
+import { apiUrl } from "./apiUrl";
 import { loadTicketGrid, mapUsersById } from "./utils";
 import { Ticket, User } from "./interfaces";
 import Loader from "./components/Loader";
@@ -17,11 +17,12 @@ function App() {
 
   useEffect(() => {
     loadSettings();
-    fetch(GET_TICKETS_URL)
+    fetch(apiUrl)
       .then((resp) => resp.json())
       .then((res) => {
         const { tickets, users } = res;
         setTickets(tickets);
+        console.log(tickets);
         setUserData(mapUsersById(users));
       })
       .catch((err) => {});

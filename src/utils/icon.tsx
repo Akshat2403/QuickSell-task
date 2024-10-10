@@ -28,6 +28,6 @@ export const statusIcon = (status: string) => {
     case "Cancelled":
       return <img src="icons/Cancelled.svg" />;
     default:
-      return <img src="icons/Done.svg" />;
+      return <img src="icons/Cancelled.svg" />;
   }
 };
